@@ -35,8 +35,8 @@ $container.isotope({
     //  $(".pl-full").closest( "#cff" ).removeAttr('id');
     //  $(".pl-full img").unwrap();
     $('.poster-inner').hide();
-    $('.poster-inner-left').hide();
-    $('#navigation').addClass('animated bounceInUp');
+    $('#navigation').hide();
+    // $('#navigation').addClass('animated bounceInUp');
     $('.poster').addClass('animated bounceInDown');
     $('.poster').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', doSomething);
     function doSomething() {
