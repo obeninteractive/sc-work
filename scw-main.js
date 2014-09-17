@@ -36,7 +36,7 @@ $container.isotope({
     //  $(".pl-full img").unwrap();
     $('.poster-inner').hide();
     $('.poster-inner-left').hide();
-    $('.nav-main').addClass('animated fadeIn');
+    $('#navigation').addClass('animated fadeIn');
     $('.poster').addClass('animated bounceInDown');
     $('.poster').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', doSomething);
     function doSomething() {
